@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class HomeController {
 
-    @GetMapping("/")
+    @GetMapping("/api")
     public String index() {
         return "Backend Clinica Odontológica ONLINE 🚀";
     }
