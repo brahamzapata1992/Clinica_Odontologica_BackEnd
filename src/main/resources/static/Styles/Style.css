@@ -1,0 +1,144 @@
+body{
+    
+    margin: 0 auto;
+    padding: 18px;
+    min-width: 1440px;
+    box-sizing: border-box;
+    overflow: auto
+}
+/* --------- header --------- */
+
+header.principal-header{
+    
+    border: 4px solid #0000008a;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 85px;
+}
+div.header-izq{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.header-der{
+    padding-right: 50px;
+    text-align: center;
+    display: flex;
+    
+    justify-content: end;
+    align-items: center;
+    
+}
+div.header-centro{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul.list-header{
+    list-style: none;
+}
+ul.list-header li{
+    display: inline-block;
+    margin-right: 40px
+}
+img.imagen-user{
+    width: 15%;
+}
+button.botton-header{
+    border-radius: 10px;
+    background-color: rgba(20, 225, 34, 0.476); 
+          
+}
+h1.header-title{
+    margin-left: 30px;
+}
+
+/* --------- main --------- */
+
+section.main-box{
+    border: 2px solid #00000080;
+    min-height: 600px;
+    display: flex;
+}
+div.opciones-izq{
+    border: 2px  solid #00000065;
+    padding: 8px;
+    width: 370px;
+    min-width: 370px;
+    min-height: 63vh;
+    display: none;
+}
+div.opciones-der{
+    border: 2px solid #0000007e;
+    padding: 8px;
+    min-width: 71vw;
+    min-height: 63vh;
+    display: flex;
+    justify-content:space-between;
+           
+}
+ul.lista-principal li{
+    font-size: 23px;
+    list-style: none;
+    
+}
+img.fondo-dentist{
+    size: 50%;
+    width: 23.5%;
+}
+
+div.box-datos{
+    width: 1135px;
+    text-align: center;
+    font-size: 35px;
+    
+}
+button.empezar{
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(82, 199, 103, 0.63);
+}
+
+.lista-principal li:hover {
+    color: rgba(14, 216, 68, 0.599); 
+    cursor: pointer;
+     
+}
+
+
+/* ----------- footer-------*/
+div.redes-footer{
+    border: 4px solid #00000069;
+    padding: 8px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    
+}
+div.redes-footer img{
+    padding: 20px;
+    width: 3%;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
